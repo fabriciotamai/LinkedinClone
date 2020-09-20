@@ -22,7 +22,7 @@ const FeedPost: React.FC = () => {
         <Row className="heading">
           <Avatar src="https://i.imgur.com/81RtXfT.jpg" alt="Rocketseat" />
           <Column>
-            <h3>Rocketseat</h3>
+            <h3>teste</h3>
             <h4>Instituição de ensino</h4>
             <time>1 sem</time>
           </Column>
