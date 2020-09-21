@@ -7,8 +7,8 @@ const AdBanner : React.FC = () =>{
     return(
         <Container className="ad-banner">
 
-        <span>Rocketseat-</span>
-        interface reproduzida em busca do next level
+        <span>FabricioTamai-</span>
+        
 
         </Container>
 

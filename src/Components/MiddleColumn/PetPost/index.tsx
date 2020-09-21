@@ -1,5 +1,8 @@
 import React from 'react';
 
+import messi_mag from '../../assets/messi_mag.jpg';
+
+
 import Panel from '../../Panel';
 
 import {
@@ -15,21 +18,21 @@ import {
   SendIcon,
 } from './styles';
 
-const FeedPost: React.FC = () => {
+const PetPost: React.FC = () => {
   return (
     <Panel>
       <Container>
         <Row className="heading">
           <Avatar src="https://i.imgur.com/81RtXfT.jpg" alt="Rocketseat" />
           <Column>
-            <h3>teste</h3>
-            <h4>Instituição de ensino</h4>
+            <h3>Beaglelino</h3>
+            <h4>Educational institution of Messi & Mag</h4>
             <time>1 sem</time>
           </Column>
         </Row>
 
         <PostImage
-          src="https://blog.rocketseat.com.br/content/images/2019/05/Painel.png"
+          src={messi_mag}
           alt="Rocketseat Blog"
         />
 
@@ -67,4 +70,4 @@ const FeedPost: React.FC = () => {
   );
 };
 
-export default FeedPost;
+export default PetPost;

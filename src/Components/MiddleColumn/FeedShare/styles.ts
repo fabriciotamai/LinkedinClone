@@ -1,3 +1,5 @@
+
+
 import styled, { css } from 'styled-components';
 import { BsPencilSquare } from 'react-icons/bs';
 import {
@@ -13,9 +15,19 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     padding: 18px 24px;
-    > span {
+    >input{
       margin-left: 8px;
-      font-weight: 600;
+      width:100%;
+      
+      border:none;
+      outline:0;
+      &::-webkit-input-placeholder{
+        font-weight:700
+    
+    
+      
+      
+      }
     }
   }
   .attachment {

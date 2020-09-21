@@ -17,7 +17,7 @@ const FeedShare: React.FC = () => {
       <Container>
         <div className="write">
           <WriteIcon />
-          <span>Começar uma publicação</span>
+          <input className="span" placeholder="Começar uma Publicação "></input>
         </div>
         <div className="attachment">
           <button>
